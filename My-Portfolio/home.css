@@ -96,7 +96,6 @@ nav {
     display: flex;
     justify-content: center;
     width: 50%;
-    cursor: pointer;
     margin-bottom: 5px;
 }
 
@@ -121,6 +120,7 @@ a {
     box-shadow: inset 1px -3px 3px grey;
     text-transform: uppercase;
     background-color: white;
+    cursor: pointer;
 }
 
 /*main*/
