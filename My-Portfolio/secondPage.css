@@ -100,19 +100,19 @@ nav {
     font-size: 30px;
 }
 
-a:active {
+.navigation a:active {
     border: 2px solid black;
     text-transform: lowercase;
     box-shadow: none;
 }
 
-a:hover {
+.navigation a:hover {
     background-color: grey;
     border: 2px solid black;
     box-shadow: 2px 3px 3px black;
 }
 
-a {
+.navigation a {
     font-size: 40px;
     font-family: "Bree Serif", serif;
     color: black;
@@ -134,7 +134,7 @@ main {
     width: 100%;
     grid-template: 50% 50% / 50% 50%;
     grid-template-areas: 'project contact'
-                         'colors contact';
+                         'colors colors';
     color: white;
     background-color: hsl(204,18.8%, 13%);
 }
@@ -143,8 +143,72 @@ main {
 
 .proj {
     grid-area: project;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
+.proj .subtitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 110px;
+}
+
+.proj h2 {
+    width: 70%;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-decoration: underline;
+    word-spacing: 10px;
+    letter-spacing: 1.4px;
+    
+    
+}
+
+.list {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 260px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list ul {
+    height: 100%;
+    width: 70%;
+    position: relative;
+    right: 20px;
+}
+
+.list li {
+    height: 50%;
+    font-size: 22px;
+    word-spacing: 4px;
+    line-height: 1.3;
+}
+
+.list a {
+    font-size: 22px;
+    font-style: italic;
+    color: aqua;
+}
+
+.list a:visited {
+    color: darkcyan;
+}
+
+.list a:hover {
+    background-color: grey;
+}
 
 /*contact*/
 
