@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -277,3 +277,549 @@ footer {
 h6 {
     font-size: 24px;
 }
+
+
+
+
+
+
+
+/*media for 1148px to 1572px*/
+
+@media screen and (max-width: 1572px) and (min-width: 1148px) {
+
+
+
+.big {
+    position: relative;
+    bottom: 40px;
+    
+}
+
+.big h3 {
+
+    font-size: 40px;
+}
+
+.small {
+    position: relative;
+    top: 110px;
+    display: none;
+}
+
+.small p {
+    font-size: 18px;
+}
+
+.about-btn {
+    position: relative;
+    top: 60px;
+}
+
+
+.porte {
+    position: relative;
+    left: 0px;
+}
+
+
+
+img {
+    height: 370px;
+    width: 410px;
+}
+
+}
+
+
+
+/*1148px to 800px*/
+
+@media screen and (max-width: 1148px) and (min-width: 800px) {
+
+header {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.title {
+    width: 50%;
+    display: flex;
+    font-size: 24px;
+    justify-content: flex-start;
+}
+
+.title h1 {
+    font-size: 54px;
+    position: relative;
+    margin-left: -20px;
+    right: 20px;
+}
+
+nav {
+    width: 50%;
+}
+
+.navigation {
+    display: ineline-flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.botones {
+    position: relative;
+    right: 140px;
+}
+
+
+.porte {
+    position: relative;
+    left: 0px;
+}
+
+.big h3 {
+ font-size: 32px;
+}
+
+.big i {
+    font-size: 32px;
+}
+
+/*main*/
+
+main {
+    display: inline-grid;
+    grid-template: 300px 500px / 100%;
+    grid-template-areas: 'image'
+                         'content';
+    height: 800px;
+    width: 100%;
+}
+
+.container {
+    grid-area: content;
+    position: relative;
+    top: 25px;
+}
+
+.big {
+    height: 180px;
+}
+
+.small {
+    position: relative;
+    top: 0px;
+}
+
+.btn {
+    position: relative;
+    top: 5px;
+}
+
+img {
+    height: 300px;
+    width: 340px;
+
+}
+
+
+.image {
+    grid-area: image;
+    position: relative;
+    bottom: 20px;
+    height: 300px;
+    display: ineline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+figure {
+    width: 100%;
+    display: inline-flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    display: none;
+}
+
+}
+
+/*800px to 400px*/
+@media screen and (max-width: 800px) and (min-width: 400px) {
+
+
+
+
+/*nav*/
+body {
+    width: 100%;
+    height: 900px;
+}
+
+header {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+
+    
+    align-items: center;
+}
+
+.title {
+
+    height: 60%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.title h1 {
+    font-size: 44px;
+    width: 100%;
+
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: flex-end;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+}
+
+.navigation {
+
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+.botones {
+
+    height: 85%;
+    width: 50%;
+}
+
+.home { 
+
+    position: relative;
+    right: 0px;
+    left: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.porte {
+    position: relative;
+    right: 0px;
+    left: 0px;
+}
+
+.navigation a {
+    font-size: 20px;
+}
+
+/*main*/
+
+
+
+main {
+    display: inline-grid;
+    grid-template: 300px 500px / 100%;
+    grid-template-areas: 'image'
+                         'content';
+    height: 800px;
+    width: 100%;
+}
+
+.container {
+    grid-area: content;
+    position: relative;
+    top: -60px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 560px;
+}
+
+.big {
+    height: 180px;
+    position: relative;
+    left: 30px;
+    right: 0px;
+    height: 150px;
+}
+
+.big h3 {
+    font-size: 24px;
+}
+
+.big i {
+    font-size: 24px;
+}
+
+
+.small {
+    position: relative;
+    top: 10px;
+    display: none;
+}
+
+.small p {
+    font-size: 18px;
+    max-height: 240px;
+    min-width: 80%;
+}
+
+.btn {
+    position: relative;
+    top: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn ul {
+    position: relative;
+    right: 0px;
+    left: 18px;
+}
+
+
+
+img {
+    height: 200px;
+    width: 270px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+
+.image {
+    grid-area: image;
+    position: relative;
+    top: 20px;
+    height: 220px;
+    display: ineline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+figure {
+    width: 100%;
+    display: inline-flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    display: none;
+}
+
+}
+
+
+/*399px <*/
+@media screen and (max-width: 399px) and (min-width: 10px) {
+
+
+
+
+body {
+    width: 100%;
+    height: 900px;
+}
+
+header {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+
+    
+    align-items: center;
+}
+
+.title {
+
+    height: 60%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.title h1 {
+    font-size: 36px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: flex-end;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+}
+
+.navigation {
+
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+.botones {
+
+    height: 85%;
+    width: 50%;
+}
+
+.home { 
+
+    position: relative;
+    right: 0px;
+    left: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.porte {
+    position: relative;
+    right: 0px;
+    left: 0px;
+}
+
+.navigation a {
+    font-size: 20px;
+}
+
+/*main*/
+
+
+
+main {
+    display: inline-grid;
+    grid-template: 300px 500px / 100%;
+    grid-template-areas: 'image'
+                         'content';
+    height: 800px;
+    width: 100%;
+}
+
+.container {
+    grid-area: content;
+    position: relative;
+    top: -20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 520px;
+    border: 2px solid black;
+}
+
+.big {
+    height: 180px;
+    position: relative;
+    left: 30px;
+    right: 0px;
+    height: 150px;
+    bottom: 40px;
+}
+
+.big h3 {
+    font-size: 24px;
+}
+
+.big i {
+    font-size: 24px;
+}
+
+
+.small {
+    position: relative;
+    top: 10px;
+    display: none;
+    overflow: scroll;
+}
+
+.small p {
+    font-size: 18px;
+    max-height: 210px;
+    min-width: 90%;
+    overflow: scroll;
+}
+
+.btn {
+    position: relative;
+    top: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn ul {
+    position: relative;
+    right: 0px;
+    left: 18px;
+}
+
+
+
+img {
+    height: 200px;
+    width: 270px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+
+.image {
+    grid-area: image;
+    position: relative;
+    top: 20px;
+    height: 220px;
+    display: ineline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+figure {
+    width: 100%;
+    display: inline-flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    display: none;
+}
+
+
+}
+
