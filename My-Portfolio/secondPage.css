@@ -306,3 +306,434 @@ footer {
 h6 {
     font-size: 24px;
 }
+
+
+
+
+
+/*screens for 1148px to 1572px*/ 
+
+
+@media screen and (max-width: 1572px) and (min-width: 1148px) {
+
+.porte {
+        position: relative;
+        left: 0px;
+    }
+}
+
+
+/*1148px to 800px*/
+
+@media screen and (max-width: 1148px) and (min-width: 800px) {
+header {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+}
+    
+.title {
+    width: 50%;
+    display: flex;
+    font-size: 24px;
+    justify-content: flex-start;
+}
+    
+.title h1 {
+    font-size: 54px;
+    position: relative;
+    margin-left: -20px;
+    right: 20px;
+}
+    
+nav {
+    width: 50%;
+}
+    
+.navigation {
+    display: ineline-flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+    
+.botones {
+    position: relative;
+    right: 140px;
+}
+    
+    
+.porte {
+    position: relative;
+    left: 0px;
+}
+
+
+/*main*/
+.subtitle h2 {
+    font-size: 36px;
+}
+
+.colors {
+    margin-top: 55px;
+}
+
+}
+
+/*800px to 400px*/
+
+@media screen and (max-width: 800px) and (min-width: 400px) {
+
+body {
+    width: 100%;
+    height: 900px;
+}
+    
+header {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    
+        
+    align-items: center;
+}
+    
+.title {
+    
+    height: 60%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+    
+.title h1 {
+    font-size: 44px;
+    width: 100%;
+    
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: flex-end;
+}
+    
+nav {
+    width: 100%;
+    height: 60px;
+}
+    
+.navigation {
+    
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+    
+    
+.botones {
+    
+    height: 85%;
+    width: 50%;
+}
+    
+.home { 
+    
+    position: relative;
+    right: 0px;
+    left: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    
+.porte {
+    position: relative;
+    right: 0px;
+    left: 0px;
+}
+    
+.navigation a {
+    font-size: 20px;
+}
+    
+
+/*main*/
+.subtitle h2 {
+    font-size: 28px;
+}
+
+.email li,
+.list li {
+    font-size: 18px;
+}
+
+/*main*/ 
+main {
+    display: inline-grid;
+    grid-template: 400px 100px 300px / 100%;
+    grid-template-areas: 'proj'
+                         'email'
+                         'colors';
+    height: 800px;
+    width: 100%;
+}
+
+
+.proj {
+    grid-area: proj;
+}
+
+
+.contact {
+    grid-area: email;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.contact h2 {
+    position: relative;
+    top: -10px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.email {
+    margin-top: 0px;
+    display: flex;
+    height: 50px;
+    position: relative;
+    bottom: 70px;
+}
+
+
+
+
+.email li {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+.colors {
+    grid-area: colors;
+}
+
+.form label {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.form label,
+.form input {
+    position: relative;
+    left: 15px;
+}
+
+}
+
+
+
+
+/*399 <*/
+
+@media screen and (max-width: 399px) {
+
+    body {
+        width: 100%;
+        height: 900px;
+    }
+        
+    header {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        
+            
+        align-items: center;
+    }
+        
+    .title {
+        
+        height: 60%;
+        width: 100%;
+        display: inline-flex;
+        justify-content: flex-start;
+    }
+        
+    .title h1 {
+        font-size: 36px;
+        width: 100%;
+        
+        position: relative;
+        left: 0px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        height: 80px;
+        align-items: flex-end;
+    }
+        
+    nav {
+        width: 100%;
+        height: 60px;
+    }
+        
+    .navigation {
+        
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: center;
+    }
+        
+        
+    .botones {
+        
+        height: 85%;
+        width: 50%;
+    }
+        
+    .home { 
+        
+        position: relative;
+        right: 0px;
+        left: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+        
+    .porte {
+        position: relative;
+        right: 0px;
+        left: 0px;
+    }
+        
+    .navigation a {
+        font-size: 20px;
+    }
+        
+    
+    /*main*/
+    .subtitle h2 {
+        font-size: 22px;
+    }
+    
+    main {
+        display: inline-grid;
+        grid-template: 400px 100px 300px / 100%;
+        grid-template-areas: 'proj'
+                             'email'
+                             'colors';
+        height: 800px;
+        width: 100%;
+    }
+    
+    
+    .proj {
+        grid-area: proj;
+    }
+    
+    .list li {
+        line-height: 1;
+        font-size: 18px;
+        word-spacing: 3px;
+    }
+
+    .list a {
+        line-height: 1;
+        font-size: 18px;
+        word-spacing: 3px;
+    }
+    
+    .contact {
+        grid-area: email;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    
+    .contact .subtitle {
+        position: relative;
+        bottom: 5px;
+    }
+
+
+    .contact h2 {
+        position: relative;
+        top: -10px;
+        bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .email {
+        margin-top: 0px;
+        display: flex;
+        height: 50px;
+        position: relative;
+        bottom: 70px;
+    }
+    
+    
+    
+    .email li {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 0px;
+        right: 0px;
+        word-spacing: 0px;
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+    
+    
+    
+    .colors {
+        grid-area: colors;
+    }
+    
+    .form label {
+        margin-right: 30px;
+        font-size: 18px;
+    }
+    
+    .form label,
+    .form input {
+        position: relative;
+        left: 15px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
